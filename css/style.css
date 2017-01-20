@@ -1,0 +1,355 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, menu, header, footer, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+   font-family: Ubuntu, sans-serif;
+   color: white;
+}
+header, footer, .global-block {
+    width: 1350px;
+    text-align: center;
+}
+
+header {
+    height: 120px
+	
+	
+}
+
+header #header-logo {
+	position: absolute;
+    display: block;
+    height: 240px;
+    top: -25px;
+    left : 12px;
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+    line-height: 121px;
+    text-decoration: none;
+	background: linear-gradient(to top, #689dd9 10%, white 80%);
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    padding-left: 2%;
+
+}
+
+header .menu a:last-child {
+    padding-right: 5%;
+}
+
+.slider-block {
+    margin: 0;
+    height: 640px;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    text-align: left;
+}
+
+.slide-info {
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.slide-info h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.slide-info p{
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.slide-info a {
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.benefits-block {
+    width : 1350px;
+    height: 420px;
+    background: linear-gradient(to bottom, #1d2f3f 97%, white 110%);
+    padding: 0%;
+    padding-top: 2%;
+	
+}
+
+.benefit-card {
+    margin-top: 50px;
+    width: 32%;
+    float:left;
+}
+
+.benefit-icon {
+    float:left;
+    position: relative;
+    overflow: hidden;
+    vertical-align: baseline;
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+    background: #1d2f3f;
+    z-index: 2;
+    margin-right: 15px;
+}
+
+.benefit-icon img {
+	opacity: 0.6;
+	margin-top: 10px;
+	margin-left: 15px;
+    display: block;
+    height:80%;
+    z-index: 1;
+}
+
+.benefit-content {
+    height: 148px;
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.benefit-content h3{
+    font-size: 22px;
+}
+
+.benefit-content p{
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+
+
+.cards-block {
+	font-family: Ubuntu, sans-serif;
+	color: white;
+    height: 340px;
+    background: linear-gradient(to top, #1d2f3f 96%, white 110%);
+	
+}
+
+.cards-block .card {
+    /* overflow: hidden;overflow: hidden; */
+	padding-top: 50px;
+	padding-bottom: 35px;
+    position: relative;
+    width : 25%;
+    height : 155px;
+    display: block;
+    float: left;
+	
+}
+
+.cards-block .card h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 36%;
+    font-size: 22px;
+    padding-top: 14px;
+    z-index: 2;
+}
+
+.cards-block .card a {
+    display: none;
+    position: absolute;
+    left: 38%;
+    right: 0;
+    top: 21%;
+    width:46%;
+    text-decoration: none;
+    color: #1d2f3f;
+    font-size: 18px;
+    padding: 6px 24px 6px 20px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    border: 2px solid #689d99;
+    z-index: 2;
+}
+
+.cards-block .card a {
+    display: block;
+	color: white;
+}
+
+.cards-block .card:hover h2 {
+    display: none;
+}
+
+.cards-block .card img {
+    width: 120px;
+	opacity: 0.4;
+	display: block;
+}
+
+.cards-block .card:hover img {
+    opacity: 1;
+}
+
+.about-block {
+    width: 1350px;
+}
+
+.about-block h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.about-block .half-left, .about-block .half-right {
+	font-family: Ubuntu, sans-serif;
+	color: white;
+	background-color: #1d2f3f;
+    display: table-cell;
+    width: 45%;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+input, textarea {
+	font-family: Ubuntu, sans-serif;
+    display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#send-button {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #689dd9;
+    font-size: 18px;
+    width : 94px;
+    padding: 6px 24px 6px 20px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    border: 2px solid #689dd9;
+}
+
+/* @media (max-width: 1050px){
+
+    .slider-block {
+        height: 480px;
+    }
+
+    .benefits-block {
+        height: 560px;
+    }
+
+    .benefit-card {
+        width: 49%;
+    }
+
+    .benefit-icon{
+        height: 120px;
+        width: 120px;
+    }
+
+    .benefit-content {
+        height: 120px;
+    }
+
+    .benefit-content p {
+        margin-bottom: 34px;
+    }
+
+    .cards-block .card {
+        width : 33.3333333%;
+        height : 120px;
+    }
+
+    .cards-block .card h2{
+        top: 28%;
+    }
+
+    .cards-block .card a{
+        top: 39%;
+    }
+} */
+
+.article-block {
+    width: 90%;
+    padding: 0px 5% 20px 5% ;
+    text-indent: 20px;
+   
+}
+
+.article-block img {
+    float: left;
+    margin: 20px;
+    max-width: 400px;
+}
+
+footer {
+    height: 80px;
+    background: #000000;
+}
+
+input.error, textarea.error {
+    border-color: #c0392b;
+}
+
+input.error::-webkit-input-placeholder {color:#c0392b;}
+input.error::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+input.error:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+input.error:-ms-input-placeholder      {color:#c0392b;}
+
+textarea.error::-webkit-input-placeholder {color:#c0392b;}
+textarea.error::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+textarea.error:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+textarea.error:-ms-input-placeholder      {color:#c0392b;}
+
+#lang_list {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    line-height: 20px;
+    list-style: none;
+    margin-top: -68px;
+    text-align: left;
+    background: #FFFFFF
+}
+
+#lang_list li:hover{
+    background: gray;
+}
+
+
+#lang_link:hover #lang_list {
+    display: block;
+}
